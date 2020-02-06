@@ -10,7 +10,7 @@
     "url": "git://github.com/PolymerElements/iron-form.git"
   },
   "homepage": "https://github.com/PolymerElements/iron-form",
-  "name": "@polymer/iron-form",
+  "name": "@vistro/iron-form",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "webmat": "^0.2.0",
