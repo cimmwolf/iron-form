@@ -443,9 +443,9 @@ export class IronForm extends PolymerElement {
     }
 
     // Allow for a presubmit hook
-    let isPrevented = this.dispatchEvent(new CustomEvent('iron-form-presubmit', {cancelable: true, bubbles: true, composed: true}));
+    let isNotPrevented = this.dispatchEvent(new CustomEvent('iron-form-presubmit', {cancelable: true, bubbles: true, composed: true}));
 
-    if (!isPrevented) {
+    if (isNotPrevented) {
       this.request.generateRequest();
       this.dispatchEvent(new CustomEvent('iron-form-submit', {detail: json, bubbles: true, composed: true}));
     }
