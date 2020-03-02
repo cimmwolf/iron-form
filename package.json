@@ -33,7 +33,7 @@
     "generate-types": "gen-typescript-declarations --deleteExisting --outDir . --verify",
     "prepare": "npm run generate-types"
   },
-  "version": "3.0.4",
+  "version": "3.0.5",
   "main": "iron-form.js",
   "author": "The Polymer Authors",
   "dependencies": {
